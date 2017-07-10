@@ -264,6 +264,11 @@ div.oo2thumb img {
     height: 100%;
     overflow: hidden;
 }
+
+.sec {
+  display: flex;
+}
+
  .responsive {
     padding: 0 6px;
     float: left;
@@ -280,6 +285,49 @@ div.oo2thumb img {
    padding: 0 6px;
    float: left;
    width: 33.3333%;
+}
+
+@media only screen and (max-width: 991px)  {
+  .sec {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+
+  div.split {
+    display: inline-block;
+      vertical-align: top;
+      width: 100vw;
+    height: auto;
+      padding-top: 24px;
+  }
+
+  .fullRow {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  div.splitattr2 ul {
+    width: 100%;
+    padding-left: 0;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+  }
+  div.splitattr2 li {
+    -webkit-box-flex: 1;
+    flex: 1 0 auto;
+    max-width: 15.5%;
+
+        list-style: none;
+      display: inline-block;
+      vertical-align: top;
+      margin-bottom: 8px;
+      width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1200px){
@@ -559,9 +607,9 @@ div.oo2thumb img {
   </div>
 </div>
 
-
+<section class="sec1">
 <div class="container">
-  <div class="split splitattr">
+  <div class="fullRow split splitattr">
     <ul class="splitul">
       <li class="splitli">
         <div>
@@ -595,7 +643,7 @@ div.oo2thumb img {
     </ul>
   </div>
 
-  <div class="split splitattr2">
+  <div class="fullRow split splitattr2">
     <ul class="splitul2">
       <div class="splitdiv2">
       <li class="splitli2">
@@ -626,11 +674,38 @@ div.oo2thumb img {
         <a class="_35rziDWnDuxl0Ktlj0JMaw" href="restaurants/282338ee-%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B9%89%E0%B8%AD%E0%B9%84%E0%B8%9F-%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2-%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%A1%E0%B8%AA%E0%B8%B8%E0%B8%82">ร้านตี๋ต้มยำหัวปลาหม้อไฟ เจ้าเก่า (อุดมสุข)</a>
         <a class="SBxK1VkbmvITtryD-EkfR" href="users/6e01fedb549d4e549e09b794aaf4218f">Qkii Kikkaq</a>
       </li>
+      <li class="splitli2">
+        <a class="oo2" href="#">
+          <div class="oo2thumb">
+            <img src="https://img-wongnai.cdn.byteark.com/p/s/2017/06/27/72e14667a1d44ed7941ce22667eb3c8c.jpg" title="ร้านตี๋ต้มยำหัวปลาหม้อไฟ เจ้าเก่า (อุดมสุข)" alt="ร้านตี๋ต้มยำหัวปลาหม้อไฟ เจ้าเก่า (อุดมสุข)">
+          </div>
+        </a>
+        <a class="_35rziDWnDuxl0Ktlj0JMaw" href="restaurants/282338ee-%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B9%89%E0%B8%AD%E0%B9%84%E0%B8%9F-%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2-%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%A1%E0%B8%AA%E0%B8%B8%E0%B8%82">ร้านตี๋ต้มยำหัวปลาหม้อไฟ เจ้าเก่า (อุดมสุข)</a>
+        <a class="SBxK1VkbmvITtryD-EkfR" href="users/6e01fedb549d4e549e09b794aaf4218f">Qkii Kikkaq</a>
+      </li>
+      <li class="splitli2">
+        <a class="oo2" href="#">
+          <div class="oo2thumb">
+            <img src="https://img-wongnai.cdn.byteark.com/p/s/2017/06/27/72e14667a1d44ed7941ce22667eb3c8c.jpg" title="ร้านตี๋ต้มยำหัวปลาหม้อไฟ เจ้าเก่า (อุดมสุข)" alt="ร้านตี๋ต้มยำหัวปลาหม้อไฟ เจ้าเก่า (อุดมสุข)">
+          </div>
+        </a>
+        <a class="_35rziDWnDuxl0Ktlj0JMaw" href="restaurants/282338ee-%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B9%89%E0%B8%AD%E0%B9%84%E0%B8%9F-%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2-%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%A1%E0%B8%AA%E0%B8%B8%E0%B8%82">ร้านตี๋ต้มยำหัวปลาหม้อไฟ เจ้าเก่า (อุดมสุข)</a>
+        <a class="SBxK1VkbmvITtryD-EkfR" href="users/6e01fedb549d4e549e09b794aaf4218f">Qkii Kikkaq</a>
+      </li>
+      <li class="splitli2">
+        <a class="oo2" href="#">
+          <div class="oo2thumb">
+            <img src="https://img-wongnai.cdn.byteark.com/p/s/2017/06/27/72e14667a1d44ed7941ce22667eb3c8c.jpg" title="ร้านตี๋ต้มยำหัวปลาหม้อไฟ เจ้าเก่า (อุดมสุข)" alt="ร้านตี๋ต้มยำหัวปลาหม้อไฟ เจ้าเก่า (อุดมสุข)">
+          </div>
+        </a>
+        <a class="_35rziDWnDuxl0Ktlj0JMaw" href="restaurants/282338ee-%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A2%E0%B8%B3%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%AB%E0%B8%A1%E0%B9%89%E0%B8%AD%E0%B9%84%E0%B8%9F-%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2-%E0%B8%AD%E0%B8%B8%E0%B8%94%E0%B8%A1%E0%B8%AA%E0%B8%B8%E0%B8%82">ร้านตี๋ต้มยำหัวปลาหม้อไฟ เจ้าเก่า (อุดมสุข)</a>
+        <a class="SBxK1VkbmvITtryD-EkfR" href="users/6e01fedb549d4e549e09b794aaf4218f">Qkii Kikkaq</a>
+      </li>
     </div>
     </ul>
   </div>
 </div>
-
+</section>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
