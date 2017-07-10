@@ -1,0 +1,37 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+These media queries are also available via Sass mixins:
+
+Copy
+@include media-breakpoint-only(xs) { ... }
+@include media-breakpoint-only(sm) { ... }
+@include media-breakpoint-only(md) { ... }
+@include media-breakpoint-only(lg) { ... }
+@include media-breakpoint-only(xl) { ... }
+
+
+Extra small devices Phones (<768px)
+Small devices Tablets (≥768px)
+Medium devices Desktops (≥992px)
+Large devices Desktops (≥1200px)
+Grid behavior	Horizontal at all times	Collapsed to start, horizontal above breakpoints
+Container width	None (auto)	750px	970px	1170px
+Class prefix	.col-xs-	.col-sm-	.col-md-	.col-lg-
+# of columns	12
+Column width	Auto	~62px	~81px	~97px
+Gutter width	30px (15px on each side of a column)
+Nestable	Yes
+Offsets	Yes
+Column ordering	Yes
